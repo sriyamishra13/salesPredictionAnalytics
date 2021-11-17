@@ -10,4 +10,6 @@ public interface ProductDetailsRepository extends PagingAndSortingRepository<Pro
         Boolean existsByProductId(Integer id);
 
         Boolean existsProductDetailsByProductId(Integer id);
+
+        Boolean existsDistinctByProductCost(Long cost);
 }
