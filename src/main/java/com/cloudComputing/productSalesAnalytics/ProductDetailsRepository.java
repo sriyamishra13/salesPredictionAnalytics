@@ -8,5 +8,4 @@ import org.springframework.stereotype.Repository;
 public interface ProductDetailsRepository extends PagingAndSortingRepository<ProductDetails, Integer> {
 
         Boolean existsByProductId(Integer id);
-
 }
